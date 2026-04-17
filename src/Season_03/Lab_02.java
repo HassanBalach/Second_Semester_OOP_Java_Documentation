@@ -34,16 +34,12 @@ public class Lab_02 {
         student01.grade2 = 85.3;
         student01.grade3 = 99.1;
 
-
         student01.displayStudentDetail();
-
-
 
         Student student02 = new Student("Kamran Balach" , 321);
         student02.grade1 = 56.2;
         student02.grade2 = 58.3;
         student02.grade3 = 69.1;
-
 
         student02.displayStudentDetail();
     }

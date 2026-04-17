@@ -1,14 +1,10 @@
 package Season_01;
-
 import java.util.Scanner;
-
 public class Lab_02 {
     public static void main(String[] args) {
-
         Scanner input = new Scanner(System.in);
         double monday , tuesday , wednesday , thursday , friday , saturday , sunday ;
         double totalDistance;
-
         System.out.print("Enter Distance Cover On Monday (in Km): ");
         monday = input.nextDouble();
         System.out.print("Enter Distance Cover On Tuesday (in Km): ");

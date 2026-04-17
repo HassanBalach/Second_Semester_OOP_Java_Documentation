@@ -1,16 +1,9 @@
 package Season_03;
 
 class Item{
-    /*
-    * o	name: The name of the item (String)
-o	price: The price of the item (double)
-o	quantity: The quantity of the item added to the cart (int)
-
-    * */
     String name;
     double price;
     int quantity;
-
 
     Item(String name , double price , int quantity){
         this.name = name;
@@ -38,7 +31,6 @@ o	quantity: The quantity of the item added to the cart (int)
 public class Lab_01 {
     public static void main(String[] args) {
         Item item01 = new Item("Learning Board" , 1200 , 20);
-
 
         System.out.println("Initial Items detail: ");
         item01.displayItemDetails();
